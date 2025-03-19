@@ -169,7 +169,40 @@ public class All{
  System.out.println(txt2.toUpperCase());
  System.out.println(txt2.toLowerCase());
 
-
+ String greeting = "hello";
+ System.out.println("greeting");
+ 
+ //string concatenation
+ String yy ="10";
+ String xx="40";
+ System.out.println(yy+xx);
+ 
+ String aa = "kaka";
+ String bb = "ishu";
+ System.out.println(aa.concat(bb));
+ 
+ //java math
+ int qw = 20;
+ int wq = 64;
+ System.out.println(Math.max(qw, wq));
+ 
+ System.out.println(Math.min(wq,qw));
+ 
+ System.out.println(Math.sqrt(wq));
+ 
+ System.out.println(Math.abs(-4.7));
+ 
+ System.out.println(Math.random());
+ 
+ int randomNum =(int)(Math.random()*101);
+ System.out.println(randomNum);
+ 
+ if (wq >= wq){
+   System.out.println("wq is");
+ }else{
+   System.out.println("on it");
+ }
+ 
 
     }
 }
