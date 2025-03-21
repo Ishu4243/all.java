@@ -204,5 +204,12 @@ public class All{
  }
  
 
+
+ //IF ELSE SHORThand
+ int cc = 34;
+ String  result = (cc>=50)? "BORED":"GOOD";
+ System.out.println(result);
+
+
     }
 }
